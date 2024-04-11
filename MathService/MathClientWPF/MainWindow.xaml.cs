@@ -1,4 +1,4 @@
-﻿using MathService;
+﻿
 using System;
 using System.Text;
 using System.Windows;
@@ -12,6 +12,8 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using static System.Net.Mime.MediaTypeNames;
 using System.Xml.Linq;
+using ServiceReference1;
+using Tuple = ServiceReference1.Tuple;
 
 
 
@@ -32,7 +34,7 @@ namespace MathClientWPF
             if (Int32.TryParse(Valor.Text, out int iValue))
             {
                 // Se instancia el proxy
-                MathService.MathClient client = new MathService.MathClient();
+                MathClient client = new MathClient();
 
                 // Se invoca el servicio
                 bool result = client.Prime(iValue);
@@ -48,11 +50,11 @@ namespace MathClientWPF
         {
 
             // Se instancia el proxy
-            MathService.MathClient client = new MathService.MathClient();
+            MathClient client = new MathClient();
 
             string _nombre = nombreTupla.Text;
             String[] _data;
-            MathService.Tuple resultado;
+            Tuple resultado;
 
             _data = datosTupla.Text.Split(' ');
             double[] dato = new double[_data.Length];
@@ -62,7 +64,7 @@ namespace MathClientWPF
                 dato[i] = Convert.ToDouble(_data[i]);
             }
 
-            MathService.Tuple tupla = new MathService.Tuple();
+            Tuple tupla = new Tuple();
             tupla.Data = dato;
             tupla.Name = _nombre;
 

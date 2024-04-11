@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Juan\\Desktop\\WCF_Project\\MathService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0124CA5E-FC6F-436C-928B-E93F9871BF34}|MathClientWPF\\MathClientWPF.csproj|c:\\users\\juan\\desktop\\wcf_project\\mathservice\\mathclientwpf\\mathclientwpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0124CA5E-FC6F-436C-928B-E93F9871BF34}|MathClientWPF\\MathClientWPF.csproj|solutionrelative:mathclientwpf\\mathclientwpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{0124CA5E-FC6F-436C-928B-E93F9871BF34}|MathClientWPF\\MathClientWPF.csproj|c:\\users\\juan\\desktop\\wcf_project\\mathservice\\mathclientwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0124CA5E-FC6F-436C-928B-E93F9871BF34}|MathClientWPF\\MathClientWPF.csproj|solutionrelative:mathclientwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0124CA5E-FC6F-436C-928B-E93F9871BF34}|MathClientWPF\\MathClientWPF.csproj|c:\\users\\juan\\desktop\\wcf_project\\mathservice\\mathclientwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0124CA5E-FC6F-436C-928B-E93F9871BF34}|MathClientWPF\\MathClientWPF.csproj|solutionrelative:mathclientwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0124CA5E-FC6F-436C-928B-E93F9871BF34}|MathClientWPF\\MathClientWPF.csproj|c:\\users\\juan\\desktop\\wcf_project\\mathservice\\mathclientwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0124CA5E-FC6F-436C-928B-E93F9871BF34}|MathClientWPF\\MathClientWPF.csproj|solutionrelative:mathclientwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0124CA5E-FC6F-436C-928B-E93F9871BF34}|MathClientWPF\\MathClientWPF.csproj|c:\\users\\juan\\desktop\\wcf_project\\mathservice\\mathclientwpf\\connected services\\servicereference1\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0124CA5E-FC6F-436C-928B-E93F9871BF34}|MathClientWPF\\MathClientWPF.csproj|solutionrelative:mathclientwpf\\connected services\\servicereference1\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0124CA5E-FC6F-436C-928B-E93F9871BF34}|MathClientWPF\\MathClientWPF.csproj|c:\\users\\juan\\desktop\\wcf_project\\mathservice\\mathclientwpf\\mathclientwpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0124CA5E-FC6F-436C-928B-E93F9871BF34}|MathClientWPF\\MathClientWPF.csproj|solutionrelative:mathclientwpf\\mathclientwpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Juan\\Desktop\\WCF_Project\\MathService\\MathClientWPF\\obj\\Debug\\net6.0-windows\\MainWindow.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Reference.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\Desktop\\WCF_Project\\MathService\\MathClientWPF\\Connected Services\\ServiceReference1\\Reference.cs",
+              "RelativeDocumentMoniker": "MathClientWPF\\Connected Services\\ServiceReference1\\Reference.cs",
+              "ToolTip": "C:\\Users\\Juan\\Desktop\\WCF_Project\\MathService\\MathClientWPF\\Connected Services\\ServiceReference1\\Reference.cs",
+              "RelativeToolTip": "MathClientWPF\\Connected Services\\ServiceReference1\\Reference.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T19:42:34.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MathClientWPF.csproj",
               "DocumentMoniker": "C:\\Users\\Juan\\Desktop\\WCF_Project\\MathService\\MathClientWPF\\MathClientWPF.csproj",
               "RelativeDocumentMoniker": "MathClientWPF\\MathClientWPF.csproj",
@@ -38,12 +55,11 @@
               "RelativeToolTip": "MathClientWPF\\MathClientWPF.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-11T15:51:18.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T15:51:18.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainWindow.g.i.cs",
               "DocumentMoniker": "C:\\Users\\Juan\\Desktop\\WCF_Project\\MathService\\MathClientWPF\\obj\\Debug\\net6.0-windows\\MainWindow.g.i.cs",
               "RelativeDocumentMoniker": "MathClientWPF\\obj\\Debug\\net6.0-windows\\MainWindow.g.i.cs",
@@ -62,19 +78,21 @@
               "ToolTip": "C:\\Users\\Juan\\Desktop\\WCF_Project\\MathService\\MathClientWPF\\MainWindow.xaml",
               "RelativeToolTip": "MathClientWPF\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-02T12:57:27.903Z"
+              "WhenOpened": "2024-04-02T12:57:27.903Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Juan\\Desktop\\WCF_Project\\MathService\\MathClientWPF\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MathClientWPF\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Juan\\Desktop\\WCF_Project\\MathService\\MathClientWPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "MathClientWPF\\MainWindow.xaml.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwDUAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T12:57:27.703Z"
+              "WhenOpened": "2024-04-02T12:57:27.703Z",
+              "EditorCaption": ""
             }
           ]
         }
