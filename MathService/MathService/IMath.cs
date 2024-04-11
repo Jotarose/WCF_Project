@@ -4,14 +4,15 @@ using System.ServiceModel;
 namespace MathService
 {
     /*
-     * 
+     * ServiceContract es una clase (en este caso interfaz), que proporciona servicios
      */
 
     [ServiceContract]
     public interface IMath
     {
         /*
-         * 
+         * OperationContract son los servicios que tiene la clase, implementados 
+         * como metodos
          */
 
         [OperationContract]
@@ -22,7 +23,8 @@ namespace MathService
     }
 
     /*
-     * 
+     * Son los tipos de datos que se pasaran como parametro a los servicios
+     * solo hace falta para datos que no sean de tipo primitivo
      */
     [DataContract]
     public class Tuple

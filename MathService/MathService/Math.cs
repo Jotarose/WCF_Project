@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MathService
 {
-    internal class Math : IMath
+    public class Math : IMath
     {
 
 
@@ -45,7 +45,7 @@ namespace MathService
             resultado[0] = sumaTupla;
 
             Tuple tuplaFinal = new Tuple();
-            tuplaFinal.Name = $"Suma interna de la tupla: {name}";
+            tuplaFinal.Name = $"Suma interna de {name}";
             tuplaFinal.Data = resultado;
             return tuplaFinal;
         }

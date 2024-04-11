@@ -6,18 +6,35 @@
         xmlns:local="clr-namespace:MathClientWPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid >
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="0"/>
+            <RowDefinition Height="40"/>
         </Grid.RowDefinitions>
 
-        <Label Content="Número:" Grid.Row="1" FontSize="20" Margin="90,130,607,-151"/>
-        <TextBox Grid.Row="1" FontSize="22" Margin="215,132,31,-149" x:Name="Valor"/>
+        <Label Content="Número:" Grid.Row="1" FontSize="20" Margin="90,42,614,-45"/>
+        <TextBox Grid.Row="1" FontSize="22" Margin="207,43,188,-43" x:Name="Valor"/>
 
-        <Label Content="Resultado:" Grid.Row="1" FontSize="20" Margin="90,248,607,-274"/>
-        <TextBox Grid.Row="1" FontSize="22" Margin="215,248,31,-261" x:Name="Resultado" IsReadOnly="True"/>
+        <Label Content="Resultado:" Grid.Row="1" FontSize="20" Margin="90,116,593,-121"/>
+        <TextBox Grid.Row="1" FontSize="22" Margin="207,116,188,-113" x:Name="Resultado" IsReadOnly="True"/>
 
-        <Button Content="Primo" FontSize="18" Grid.Row="1" Click="Button_Click" Margin="659,325,31,-325"/>
+        <Button Content="Primo" FontSize="18" Grid.Row="1" Click="Button_Click_Primo" Margin="621,163,77,-153"/>
+
+        <!-- Ahora defino los botones para las tuplas -->
+        
+        <Label Content="Nombre Tupla:" Grid.Row="1" FontSize="20" Margin="90,217,554,-220"/>
+        <Label Content="Datos Tupla:" Grid.Row="1" FontSize="20" Margin="90,275,554,-278"/>
+        <TextBox Grid.Row="1" FontSize="22" Margin="246,217,188,-217" x:Name="nombreTupla"/>
+        <TextBox Grid.Row="1" FontSize="22" Margin="246,275,188,-275" x:Name="datosTupla"/>
+        <Button Content="Sumar" FontSize="18" Grid.Row="1" Click="Button_Click_Sumar" Margin="672,341,26,-331"/>
+        <Label Content="Resultado:" Grid.Row="1" FontSize="20" Margin="90,328,554,-331"/>
+        <TextBox Grid.Row="1" FontSize="22" Margin="246,331,265,-331" x:Name="resultadoTupla"/>
+        <TextBox Grid.Row="1" FontSize="22" Margin="553,331,145,-331" x:Name="resultadoTuplaNumero"/>
+
+
+
+
+
     </Grid>
+
 </Window>

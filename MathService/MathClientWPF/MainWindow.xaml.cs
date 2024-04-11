@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using MathService;
+using System;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -8,6 +10,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using static System.Net.Mime.MediaTypeNames;
+using System.Xml.Linq;
 
 
 
@@ -23,7 +27,7 @@ namespace MathClientWPF
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click_Primo(object sender, RoutedEventArgs e)
         {
             if (Int32.TryParse(Valor.Text, out int iValue))
             {
@@ -40,6 +44,34 @@ namespace MathClientWPF
             }
         }
 
+        private void Button_Click_Sumar(object sender, RoutedEventArgs e)
+        {
 
+            // Se instancia el proxy
+            MathService.MathClient client = new MathService.MathClient();
+
+            string _nombre = nombreTupla.Text;
+            String[] _data;
+            MathService.Tuple resultado;
+
+            _data = datosTupla.Text.Split(' ');
+            double[] dato = new double[_data.Length];
+
+            for (int i = 0; i < _data.Length; i++)
+            {
+                dato[i] = Convert.ToDouble(_data[i]);
+            }
+
+            MathService.Tuple tupla = new MathService.Tuple();
+            tupla.Data = dato;
+            tupla.Name = _nombre;
+
+            // Se invoca el servicio
+            resultado = client.sumaInterna(tupla);
+
+            //Se presentan los resultados
+            resultadoTuplaNumero.Text = resultado.Data[0].ToString();
+            resultadoTupla.Text = resultado.Name;
+        }
     }
 }
