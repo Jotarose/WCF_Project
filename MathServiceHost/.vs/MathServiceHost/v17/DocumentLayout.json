@@ -7,10 +7,7 @@
       "RelativeMoniker": "D:0:0:{7BFB2104-FEB8-4374-86D7-8F49BCBA4429}|MathServiceHost\\MathServiceHost.csproj|solutionrelative:mathservicehost\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{157A228A-BC77-4030-8F92-B15DB9B0E994}|..\\MathService\\MathService\\MathService.csproj|c:\\users\\juan\\desktop\\wcf_project\\mathservice\\mathservice\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFB2104-FEB8-4374-86D7-8F49BCBA4429}|MathServiceHost\\MathServiceHost.csproj|c:\\users\\juan\\desktop\\wcf_project\\mathservicehost\\mathservicehost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BFB2104-FEB8-4374-86D7-8F49BCBA4429}|MathServiceHost\\MathServiceHost.csproj|C:\\Users\\Juan\\Desktop\\WCF_Project\\MathServiceHost\\mathservicehost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BFB2104-FEB8-4374-86D7-8F49BCBA4429}|MathServiceHost\\MathServiceHost.csproj|solutionrelative:mathservicehost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -27,31 +24,18 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\Juan\\Desktop\\WCF_Project\\MathServiceHost\\MathServiceHost\\App.config",
-              "RelativeDocumentMoniker": "MathServiceHost\\App.config",
-              "ToolTip": "C:\\Users\\Juan\\Desktop\\WCF_Project\\MathServiceHost\\MathServiceHost\\App.config",
-              "RelativeToolTip": "MathServiceHost\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "DocumentMoniker": "C:\\Users\\Juan\\Desktop\\WCF_Project\\MathServiceHost\\MathServiceHost\\app.config",
+              "RelativeDocumentMoniker": "MathServiceHost\\app.config",
+              "ToolTip": "C:\\Users\\Juan\\Desktop\\WCF_Project\\MathServiceHost\\MathServiceHost\\app.config",
+              "RelativeToolTip": "MathServiceHost\\app.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-04-11T19:34:07.634Z",
+              "WhenOpened": "2024-04-11T22:25:54.609Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\Juan\\Desktop\\WCF_Project\\MathService\\MathService\\App.config",
-              "RelativeDocumentMoniker": "..\\MathService\\MathService\\App.config",
-              "ToolTip": "C:\\Users\\Juan\\Desktop\\WCF_Project\\MathService\\MathService\\App.config",
-              "RelativeToolTip": "..\\MathService\\MathService\\App.config",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACEAAAB6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-04-11T19:33:52.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Juan\\Desktop\\WCF_Project\\MathServiceHost\\MathServiceHost\\Program.cs",
               "RelativeDocumentMoniker": "MathServiceHost\\Program.cs",
