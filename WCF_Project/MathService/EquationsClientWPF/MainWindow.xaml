@@ -1,0 +1,25 @@
+﻿<Window x:Class="EquationsClientWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EquationsClientWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Número de ecuaciones:" FontSize="18" Margin="81,10,499,380"/>
+        <TextBox FontSize="22" Margin="81,59,314,341" x:Name="Num_eq"/>
+        <Button Content="Generar esquema" FontSize="18" Click="Button_Click_Generar" Margin="543,32,88,346"/>
+
+        <!-- Grid para mostrar el esquema -->
+        <Label Content="Introduce aquí las ecuaciones:" FontSize="18" Margin="81,140,449,250"/>
+        <Grid x:Name="EsquemaGrid" Margin="10,184,108,0">
+            <!-- Se añaden dos columnas adicionales, una para el signo "=" y otra para las soluciones -->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+        <Button Content="Resolver" FontSize="18" Click="Button_Click_Resolver" Margin="707,280,10,110"/>
+    </Grid>
+</Window>
